@@ -5,11 +5,29 @@
 */
 
 
+/* Size of the left column : 385px */
+
+
+/* 
+
 /* Left Side 
 ------------------------------------*/
 
 body {
     background: #feca07;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1 0 0;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2 0 0;
 }
 
 
