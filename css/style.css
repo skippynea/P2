@@ -7,29 +7,27 @@
 
 /* Size of the left column : 385px */
 
-
-/* 
-
 body {
-    background: #ffffff;
+    width: 100%;
+    margin: 0px;
+    display: flex;
 }
+
 
 /* Left Side 
 ------------------------------------*/
 
 .column-1 {
     background: #feca07;
-    float: left;
-    display: flex;
-    width: 285px;
-    height: 1600px;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     justify-content: flex-start;
-    /*flex: 1 0 385px; */
 }
 
-img {
-    position: absolute;
+.profile-pic {
+    min-width: 200px;
+    max-width: 200px;
     top: 10px;
     left: 30px;
 }
@@ -58,7 +56,12 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    *flex: 1 0 385px;
+    flex: 1 0 385px;
+}
+
+.title-2 {
+    background: #404040;
+    display: flex;
 }
 
 
