@@ -11,6 +11,7 @@ body {
     width: 100%;
     margin: 0px;
     display: flex;
+    flex-grow: initial;
     font-family: 'Lato', sans-serif;
 }
 
@@ -62,7 +63,7 @@ p {
 /* Right Side
 ------------------------------------*/
 
-.column-2 {
+#main-column {
     background: blue;
     display: flex;
     width: 1100px;
