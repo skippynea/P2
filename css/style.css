@@ -30,6 +30,11 @@ body {
     margin: 20px 0px;
 }
 
+.side-title {
+    background: #feca07;
+    display: flex;
+}
+
 
 /* Right Side
 ------------------------------------*/
@@ -55,11 +60,6 @@ body {
     flex-direction: column;
     justify-content: flex-end;
     flex: 1 0 385px;
-}
-
-.title-2 {
-    background: #404040;
-    display: flex;
 }
 
 
