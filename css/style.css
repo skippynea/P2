@@ -19,7 +19,8 @@ body {
 
 .column-1 {
     background: #feca07;
-    width: 100%;
+    display: flex;
+    width: 350px;
     height: 100%;
     flex-direction: column;
     justify-content: flex-start;
