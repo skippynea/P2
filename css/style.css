@@ -13,6 +13,14 @@ body {
     display: flex;
 }
 
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+}
+
 
 /* Left Side 
 ------------------------------------*/
@@ -37,6 +45,11 @@ body {
     color: #feca07;
     width: 100%;
     padding: 10px 0px;
+}
+
+.side-container {
+    width: 90%;
+    padding: 0px 20px;
 }
 
 
