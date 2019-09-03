@@ -31,8 +31,12 @@ body {
 }
 
 .side-title {
-    background: #feca07;
+    background: #404040;
     display: flex;
+    justify-content: center;
+    color: #feca07;
+    width: 100%;
+    padding: 10px 0px;
 }
 
 
