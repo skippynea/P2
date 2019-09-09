@@ -4,15 +4,12 @@
 #ffffff - white
 */
 
-
-/* Size of the left column : 385px */
-
 body {
     width: 100%;
     margin: 0px;
     display: flex;
     flex-grow: initial;
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
 }
 
 h3 {
@@ -57,6 +54,7 @@ p {
 .side-icons {
     display: flex;
     justify-content: space-between;
+    magin
 }
 
 
