@@ -9,7 +9,7 @@ body {
     margin: 0px;
     display: flex;
     flex-grow: initial;
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
 }
 
 h3 {
