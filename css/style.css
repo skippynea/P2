@@ -76,7 +76,13 @@ p {
 /* Intro
 ------------------------------------*/
 
-.text-yellow {}
+.text-yellow {
+    color: #fcc708;
+}
+
+.border-yellow {
+    boder-top: 1px solid #fcc708;
+}
 
 h1,
 h2,
