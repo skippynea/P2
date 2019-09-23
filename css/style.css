@@ -62,19 +62,21 @@ p {
 ------------------------------------*/
 
 .main-column {
-    background: blue;
+    background: white;
     display: flex;
     width: 1100px;
     flex-direction: column;
     align-content: right;
     justify-content: flex-end;
-    paddin
+    padding
     /* flex: 2 0 0; */
 }
 
 
 /* Intro
 ------------------------------------*/
+
+.text-yellow {}
 
 h1,
 h2,
