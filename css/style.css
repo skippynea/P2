@@ -103,7 +103,7 @@ h4 {
 }
 
 h1 .title-1 {
-    /*background: green;*/
+    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
