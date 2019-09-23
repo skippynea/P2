@@ -68,7 +68,7 @@ p {
     flex-direction: column;
     align-content: right;
     justify-content: flex-end;
-    padding
+    padding: 30 px;
     /* flex: 2 0 0; */
 }
 
@@ -81,7 +81,18 @@ p {
 }
 
 .border-yellow {
-    boder-top: 1px solid #fcc708;
+    border-top: 1px solid #fcc708;
+    width: 100px;
+}
+
+.with-yellow-border {
+    border-bottom: 1px solid #fcc708;
+    margin-top: 40px;
+}
+
+.spacing-wide {
+    width: 100%;
+    height: 50px;
 }
 
 h1,
@@ -96,6 +107,10 @@ h1 .title-1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+h2 {
+    text-transform: uppercase;
 }
 
 
