@@ -54,7 +54,7 @@ p {
 
 .side-container {
     width: 90%;
-    padding: 0px 20px;
+    padding: 30px;
 }
 
 .side-icons {
@@ -75,6 +75,21 @@ p {
     justify-content: flex-end;
     padding: 30 px;
     /* flex: 2 0 0; */
+}
+
+.education-row {
+    display: flex;
+    margin-top: 50px;
+}
+
+.education-col-dot {
+    width: 50px;
+    color: #fcc708;
+    padding-top: 20px;
+}
+
+.education-col-description {
+    flex: 1 0 0;
 }
 
 
