@@ -20,6 +20,12 @@ p {
     margin-top: 5px;
 }
 
+.container {
+    /*display: flex;
+    flex-direction: column;*/
+    display: block;
+}
+
 
 /* Left Side 
 ------------------------------------*/
@@ -54,7 +60,6 @@ p {
 .side-icons {
     display: flex;
     justify-content: space-between;
-    magin
 }
 
 
@@ -117,34 +122,14 @@ h2 {
 /* Education
 ------------------------------------*/
 
-.container-21 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
 .paragraph-1 {
     display: flex;
     align-items: start;
 }
 
 
-/* Experience
+/* Experience & References
 ------------------------------------*/
-
-.container-22 {
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* References
-------------------------------------*/
-
-.container-23 {
-    display: flex;
-    flex-direction: column;
-}
 
 
 /* Footer
