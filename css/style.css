@@ -32,7 +32,7 @@ p {
 
 #left-column {
     background: #feca07;
-    width: 350px;
+    width: 100%;
     /*height: 100%;*/
     display: flex;
     flex-direction: column;
@@ -53,7 +53,10 @@ p {
 }
 
 .side-container {
-    width: 90%;
+    width: 100%;
+}
+
+.contact-text {
     padding: 30px;
 }
 
@@ -69,12 +72,17 @@ p {
 .main-column {
     background: white;
     display: flex;
-    width: 100%;
+    width: auto;
     flex-direction: column;
     align-content: right;
     justify-content: flex-end;
-    padding: 30 px;
+    padding: 60px;
     /* flex: 2 0 0; */
+}
+
+h2 i {
+    color: #fcc708;
+    margin-right: 10px;
 }
 
 .education-row {
@@ -83,13 +91,27 @@ p {
 }
 
 .education-col-dot {
-    width: 50px;
+    width: 20px;
     color: #fcc708;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .education-col-description {
     flex: 1 0 0;
+    padding-left: 50px;
+}
+
+.education-col-description p {
+    line-height: 24px;
+    padding-left: 50px;
+}
+
+.dg-icone {
+    padding: 0px 15px;
+}
+
+*.education-col-description h3 {
+    margin-bottom: 10px;
 }
 
 
@@ -106,8 +128,11 @@ p {
 }
 
 .with-yellow-border {
+    color: #fcc708;
     border-bottom: 1px solid #fcc708;
     margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .spacing-wide {
@@ -146,6 +171,16 @@ h2 {
 /* Experience & References
 ------------------------------------*/
 
+.reference-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.reference-section-wrapper {
+    flex: 1 0 0;
+}
+
 
 /* Footer
 ------------------------------------*/
@@ -153,4 +188,23 @@ h2 {
 .footer {
     display: flex;
     flex-direction: bottom;
+}
+
+@media only screen and (max-width: 700px) {
+    .dg-container {
+        flex-direction: column;
+    }
+    .education-row {
+        flex-direction: column;
+    }
+    .education-col-description {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .education-col-dot {
+        display: none;
+    }
+    .education-col-dates {
+        padding-left: 0px;
+    }
 }
