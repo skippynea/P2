@@ -33,7 +33,7 @@
     /* Left Side 
 ------------------------------------*/
     
-    #left-column {
+    .left-column {
         background: #feca07;
         min-width: 100%;
         /*width: 100%;*/
@@ -43,7 +43,7 @@
         align-items: center
     }
     
-    #profile-pic {
+    .profile-pic {
         margin: 20px 0px;
         width: 250px;
         height: 250px;
