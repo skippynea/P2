@@ -44,6 +44,10 @@
     
     #profile-pic {
         margin: 20px 0px;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        border: 1px solid white;
     }
     
     .side-title {
@@ -71,8 +75,7 @@
     .dot {
         height: 55px;
         width: 55px;
-        background-color: #bbb;
-        border-radius: 50%;
+        border-radius: 100%;
         display: inline-block;
     }
     /* Right Side
