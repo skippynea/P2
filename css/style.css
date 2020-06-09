@@ -77,7 +77,9 @@
         width: 55px;
         border-radius: 100%;
         border: 1px solid red;
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     /* Right Side
 ------------------------------------*/
