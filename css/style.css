@@ -70,13 +70,14 @@
     .side-icons {
         display: flex;
         justify-content: space-between;
+        padding: 10px;
     }
     
     .dot {
         height: 55px;
         width: 55px;
         border-radius: 100%;
-        border: 1px solid red;
+        border: 1px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
