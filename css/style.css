@@ -226,8 +226,8 @@ h2 {
     .dg-container {
         flex-direction: column;
     }
-    .education-row {
-        flex-direction: column;
+    .left-column {
+        max-width: unset;
     }
     .education-col-description {
         padding-top: 20px;
