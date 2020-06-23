@@ -39,8 +39,6 @@ flex-direction: column;*/
 .left-column {
     background: #feca07;
     max-width: 300px;
-    /*width: 100%;*/
-    /*height: 100%;*/
     display: flex;
     flex-direction: column;
     align-items: center;
