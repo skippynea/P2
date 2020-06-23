@@ -220,23 +220,26 @@ h2 {
     .education-row {
         flex-direction: column;
     }
+    .education-col-dot {
+        display: none;
+    }
+    .education-col-dates {
+        padding-left: 0px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
     .main-container {
         flex-direction: column;
     }
+    .main-column {
+        Padding: 20px;
+    }
     .left-column {
         max-width: unset;
     }
     .education-col-description {
         padding-top: 20px;
-        padding-left: 0px;
-    }
-    .education-col-dot {
-        display: none;
-    }
-    .education-col-dates {
         padding-left: 0px;
     }
 }
