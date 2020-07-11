@@ -95,7 +95,7 @@ flex-direction: column;*/
         display: flex;
         width: auto;
         flex-direction: column;
-        align-content: right;
+        /*align-items: right;*/
         justify-content: flex-end;
         padding: 60px;
         /* flex: 2 0 0; */
@@ -210,7 +210,7 @@ flex-direction: column;*/
     
     .footer {
         display: flex;
-        flex-direction: bottom;
+        flex-direction: column;
     }
     
     @media only screen and (max-width: 900px) {
