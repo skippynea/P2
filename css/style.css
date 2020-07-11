@@ -37,7 +37,7 @@ flex-direction: column;*/
 ------------------------------------*/
 
 .left-column {
-    background: #feca07;
+    background: #FBC02D;
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ flex-direction: column;*/
     background: #404040;
     display: flex;
     justify-content: center;
-    color: #feca07;
+    color: #FBC02D;
     width: 100%;
     padding: 10px 0px;
 }
@@ -102,7 +102,7 @@ flex-direction: column;*/
 }
 
 h2 i {
-    color: #fcc708;
+    color: #FBC02D;
     margin-right: 10px;
 }
 
@@ -113,7 +113,7 @@ h2 i {
 
 .education-col-dot {
     width: 20px;
-    color: #fcc708;
+    color: #FBC02D;
     padding-top: 10px;
 }
 
@@ -145,17 +145,17 @@ padding-left: 50px;*/
 ------------------------------------*/
 
 .text-yellow {
-    color: #fcc708;
+    color: #FBC02D;
 }
 
 .border-yellow {
-    border-top: 1px solid #fcc708;
+    border-top: 1px solid #FBC02D;
     width: 100px;
 }
 
 .with-yellow-border {
-    color: #fcc708;
-    border-bottom: 1px solid #fcc708;
+    color: #FBC02D;
+    border-bottom: 1px solid #FBC02D;
     margin-top: 40px;
     margin-bottom: 20px;
     padding-bottom: 15px;
