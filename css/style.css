@@ -54,7 +54,7 @@ flex-direction: column;*/
 }
 
 .side-title {
-    background: #404040;
+    background: #424242;
     display: flex;
     justify-content: center;
     color: #FBC02D;
@@ -80,7 +80,7 @@ flex-direction: column;*/
     height: 55px;
     width: 55px;
     border-radius: 100%;
-    border: 1px solid black;
+    border: 1px solid #212121;
     display: flex;
     justify-content: center;
     align-items: center;
