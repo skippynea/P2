@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     background-color: #F5F5F5;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .main-container {
@@ -117,8 +117,7 @@ flex-direction: column;*/
 }
 
 .h2 {
-    /*display: flex;
-flex-direction: row;*/
+    color: #757575;
 }
 
 h3 i {
