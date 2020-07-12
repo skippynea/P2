@@ -70,6 +70,8 @@ flex-direction: column;*/
     
     .contact-text {
         padding: 30px;
+        text-align: justify;
+        text-justify: inter-word;
     }
     
     .side-icons {
