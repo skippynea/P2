@@ -2,6 +2,7 @@
 ##FBC02D - yellow
 #212121 - black
 #FAFAFA - white
+#616161 - grey
 #F5F5F5 - light grey
 */
             
@@ -52,7 +53,7 @@ flex-direction: column;*/
                 width: 250px;
                 height: 250px;
                 border-radius: 100%;
-                border: 2px solid #FAFAFA;
+                border: 2px solid #616161;
             }
             
             .side-title {
