@@ -81,6 +81,10 @@ flex-direction: column;*/
     text-justify: inter-word;
 }
 
+.contact-details {
+    padding-bottom: 15px;
+}
+
 .side-icons {
     display: flex;
     justify-content: space-between;
@@ -116,7 +120,7 @@ flex-direction: column;*/
     color: #212121;
 }
 
-.h2 {
+h2 {
     color: #757575;
 }
 
