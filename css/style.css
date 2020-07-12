@@ -19,7 +19,7 @@
         max-width: 1200px;
     }
     
-    h3 {
+    h4 {
         margin-bottom: 5px;
     }
     
@@ -112,7 +112,7 @@ flex-direction: column;*/
         flex-direction: row;*/
     }
     
-    h2 i {
+    h3 i {
         color: #FBC02D;
         margin-right: 10px;
     }
@@ -173,7 +173,8 @@ flex-direction: column;*/
     h1,
     h2,
     h3,
-    h4 {
+    h4,
+    h5 {
         margin: 0px;
     }
     
@@ -185,6 +186,11 @@ flex-direction: column;*/
     }
     
     h2 {
+        text-transform: lowercase;
+        color: #212121;
+    }
+    
+    h3 {
         text-transform: uppercase;
         color: #212121;
     }
@@ -214,6 +220,8 @@ flex-direction: column;*/
         display: flex;
         flex-direction: column;
     }
+    /* Media Queries
+------------------------------------*/
     
     @media only screen and (max-width: 900px) {
         .education-row {
