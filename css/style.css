@@ -235,10 +235,12 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
 }
 
-.reference-section-wrapper {
-    flex: 1 0 0;
+.reference-paragraph {
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 
