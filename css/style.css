@@ -30,8 +30,6 @@
     }
     
     .container {
-        /*display: flex;
-    flex-direction: column;*/
         display: block;
     }
     /* Left Side 
@@ -146,7 +144,6 @@
     
     .education-col-description p {
         line-height: 24px;
-        /*padding-left: 50px;*/
     }
     
     .dg-icone {
@@ -214,20 +211,12 @@
     }
     
     h2 {
-        /*text-transform: lowercase;*/
         color: #212121;
     }
     
     h3 {
         text-transform: uppercase;
         color: #212121;
-    }
-    /* Education
-------------------------------------*/
-    
-    .paragraph-1 {
-        display: flex;
-        align-items: start;
     }
     /* Experience & References
 ------------------------------------*/
@@ -242,13 +231,6 @@
     .reference-paragraph {
         margin-top: 10px;
         margin-bottom: 0px;
-    }
-    /* Footer
-------------------------------------*/
-    
-    .footer {
-        display: flex;
-        flex-direction: column;
     }
     /* Media Queries
 ------------------------------------*/
