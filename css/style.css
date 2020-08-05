@@ -183,6 +183,13 @@ h3 i {
     padding-bottom: 15px;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
 .spacing-wide {
     width: 100%;
     height: 50px;
