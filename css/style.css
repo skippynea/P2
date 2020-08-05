@@ -256,7 +256,15 @@ h3 {
 /* Media Queries
 ------------------------------------*/
 
-@media only screen and (max-width: 900px) {
+.hide-on-mobile {
+    display: block;
+}
+
+.show-on-mobile {
+    display: none;
+}
+
+. @media only screen and (max-width: 900px) {
     .education-row {
         flex-direction: column;
     }
@@ -269,6 +277,12 @@ h3 {
 }
 
 @media only screen and (max-width: 700px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .show-on-mobile {
+        display: block;
+    }
     .main-container {
         flex-direction: column;
     }
