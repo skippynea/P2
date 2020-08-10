@@ -112,10 +112,8 @@
         display: flex;
         width: auto;
         flex-direction: column;
-        /*align-items: right;*/
         justify-content: flex-end;
         padding: 60px;
-        /* flex: 2 0 0; */
     }
     
     .black-title {
@@ -129,6 +127,11 @@
     h3 i {
         color: #FBC02D;
         margin-right: 10px;
+    }
+    
+    .education-containt {
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .education-row {
@@ -223,7 +226,7 @@
         text-transform: uppercase;
         color: #212121;
     }
-    /* Experience & References
+    /* References
 ------------------------------------*/
     
     .reference-wrapper {
