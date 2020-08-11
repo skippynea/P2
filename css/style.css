@@ -260,7 +260,7 @@ h3 {
     margin-bottom: 30px;
 }
 
-. @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .education-containt {
         display: flex;
         flex-wrap: wrap;
